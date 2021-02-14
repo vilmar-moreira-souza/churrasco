@@ -1,0 +1,71 @@
+/*
+desktop
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 50px;
+  background-image: url(../imagens/fundo.jpg);
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: white;
+  float: left;
+  margin-left: 10%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 300px;
+  float: right;
+  margin-right: 10%;
+  background-color: rgb(175, 130, 6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input {
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#calcular {
+  width: 50%;
+  padding: 8px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+#calcular:hover {
+  background-color: gray;
+  border-color: gray;
+  transition: .2s;
+}
+
+/* */
+/* mobile- monitores abaixo de 890px*/
+@media screen and (max-width: 890px) {
+  h3 {
+    font-size: 1.5rem;
+    float: none;
+    margin: auto 5% auto 5%;
+    padding-bottom: 15%;
+  }
+
+  .container {
+    float: none;
+    margin: auto;
+  }
+}
